@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(pexels-jdominici-269128.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Heebo', sans-serif;
+}
+
+.container {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 300px;
+    text-align: center;
+    margin-left: 310px;
+}
+
+.container h1 {
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid purple;
+    padding-bottom: 5px;
+}
+
+.box i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.box input {
+    background: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.btn {
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s, opacity 0.3s;
+}
+
+.btn:hover {
+    background: white;
+    color: purple;
+    opacity: 0.8;
+}
